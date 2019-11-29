@@ -1,4 +1,3 @@
-Мама_мыла.py
-bot.log
-*.pyc
-_pycache_
+bot.log/
+*.pyc/
+__pycache__/
