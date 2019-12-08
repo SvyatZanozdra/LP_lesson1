@@ -1,5 +1,3 @@
-qes
-
 while True:
     ask_user = input('Как дела? ')
     if 'Хорошо' in ask_user:

@@ -1,10 +1,12 @@
 questions = {'Как дела?': 'Хорошо!', 'Что делаешь?': "Программирую"}
+ask_user = input('')
+done = False
 
-while True:
-    ask_user = input('')
+while done == False:
     for question in questions.keys():
         if question == ask_user:
             print(questions[question])
-            break
-        else:
-            print(f'А сам как думаешь?')
+        if question != ask_user:
+            ask_user = input('')
+            print('Спроси другое')
+    continue
